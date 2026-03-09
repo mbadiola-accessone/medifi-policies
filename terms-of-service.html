@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos de Servicio - MediFi</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap');
+
+        :root {
+            --bg: #FAFAF8;
+            --surface: #FFFFFF;
+            --text: #1A1A1A;
+            --text-secondary: #5A5A5A;
+            --accent: #0B6E4F;
+            --accent-light: #E8F5EF;
+            --border: #E5E5E0;
+            --warning-bg: #FFF8E1;
+            --warning-border: #F0D060;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 1.25rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.4rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--text); }
+
+        header nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-left: 1.5rem;
+            transition: color 0.2s;
+        }
+
+        header nav a:hover { color: var(--accent); }
+
+        main { padding: 3rem 0 5rem; }
+
+        h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        p { margin-bottom: 1rem; }
+
+        ul, ol {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li { margin-bottom: 0.4rem; }
+
+        .highlight {
+            background: var(--accent-light);
+            border-left: 3px solid var(--accent);
+            padding: 1rem 1.25rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.25rem 0;
+        }
+
+        .warning-box {
+            background: var(--warning-bg);
+            border-left: 3px solid var(--warning-border);
+            padding: 1rem 1.25rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.25rem 0;
+        }
+
+        .contact-info {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 2rem 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 0.75rem;
+        }
+
+        footer a:hover { color: var(--accent); }
+
+        a { color: var(--accent); }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.7rem; }
+            h2 { font-size: 1.3rem; }
+            header nav a { margin-left: 1rem; font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Medi<span>Fi</span></a>
+            <nav>
+                <a href="privacy-policy.html">Privacidad</a>
+                <a href="terms-of-service.html">Términos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Términos de Servicio</h1>
+            <p class="meta">Última actualización: 9 de marzo de 2026</p>
+
+            <h2>1. Aceptación de los Términos</h2>
+            <p>Al descargar, instalar o usar la aplicación MediFi ("la Aplicación"), usted acepta estar sujeto a estos Términos de Servicio ("Términos"). Si no está de acuerdo con estos Términos, no use la Aplicación.</p>
+
+            <h2>2. Descripción del Servicio</h2>
+            <p>MediFi es una aplicación móvil desarrollada por Edinfull S.A. que proporciona a brokers autorizados herramientas para:</p>
+            <ul>
+                <li><strong>Gestión de ilustraciones:</strong> Creación y administración de propuestas de packs de seguro de salud e inversiones.</li>
+                <li><strong>Onboarding de clientes:</strong> Herramientas para registrar y gestionar nuevos clientes.</li>
+                <li><strong>Gestión de cuentas:</strong> Visualización y administración de cuentas de clientes.</li>
+                <li><strong>Gestión de advisors:</strong> Herramientas para coordinar y gestionar advisors.</li>
+            </ul>
+
+            <h3>2.1 Limitaciones del Servicio</h3>
+            <div class="warning-box">
+                <ul>
+                    <li><strong>Solo brokers pre-autorizados:</strong> No se permite registro directo. El acceso se otorga mediante pre-registro en el sistema principal.</li>
+                    <li><strong>No es asesoramiento financiero:</strong> La información proporcionada es de carácter informativo y no constituye asesoramiento financiero, legal ni de inversiones.</li>
+                    <li><strong>No procesamiento de pagos:</strong> Los pagos se manejan a través de sistemas externos.</li>
+                </ul>
+            </div>
+
+            <h2>3. Elegibilidad y Acceso</h2>
+            <p>Para acceder a MediFi, usted debe:</p>
+            <ul>
+                <li><strong>Ser mayor de 18 años.</strong></li>
+                <li><strong>Poseer licencia vigente</strong> para vender seguros de salud y/o productos de inversión.</li>
+                <li><strong>Estar autorizado</strong> por Edinfull S.A. como broker distribuidor.</li>
+                <li><strong>Mantener certificaciones</strong> requeridas por regulaciones aplicables.</li>
+                <li><strong>Cumplir con estándares</strong> de conducta profesional.</li>
+            </ul>
+            <p>Su acceso está sujeto a verificación continua. La terminación de su licencia o autorización resulta en pérdida de acceso inmediata.</p>
+
+            <h2>4. Uso de la Cuenta</h2>
+
+            <h3>4.1 Cuentas Pre-autorizadas</h3>
+            <ul>
+                <li>Las cuentas son creadas a través del sistema principal de Edinfull S.A.</li>
+                <li>Cada usuario recibe credenciales únicas tras completar el proceso de autorización.</li>
+                <li>Usted es responsable de mantener sus credenciales seguras y confidenciales.</li>
+            </ul>
+
+            <h3>4.2 Seguridad de la Cuenta</h3>
+            <ul>
+                <li><strong>Confidencialidad:</strong> No comparta sus credenciales con terceros.</li>
+                <li><strong>Uso personal:</strong> Su cuenta es intransferible.</li>
+                <li><strong>Notificación:</strong> Reporte inmediatamente cualquier uso no autorizado a itplatform@access-one.us.</li>
+                <li><strong>Monitoreo:</strong> Podemos suspender cuentas por actividad inusual o sospechosa.</li>
+            </ul>
+
+            <h2>5. Uso Aceptable</h2>
+
+            <h3>5.1 Usos Permitidos</h3>
+            <ul>
+                <li>Generar ilustraciones de seguros e inversiones para clientes potenciales.</li>
+                <li>Gestionar el onboarding de nuevos clientes según los procedimientos establecidos.</li>
+                <li>Consultar información de cuentas y advisors asignados.</li>
+                <li>Cumplir con todas las leyes y regulaciones aplicables a la venta de seguros e inversiones.</li>
+            </ul>
+
+            <h3>5.2 Usos Prohibidos</h3>
+            <div class="warning-box">
+                <p>Está prohibido:</p>
+                <ul>
+                    <li>Usar la Aplicación para actividades ilegales o fraudulentas.</li>
+                    <li>Intentar acceder a datos de otros brokers o clientes no asignados.</li>
+                    <li>Distribuir malware o interferir con el funcionamiento de la Aplicación.</li>
+                    <li>Realizar ingeniería inversa del software.</li>
+                    <li>Compartir información confidencial de clientes fuera de los canales autorizados.</li>
+                    <li>Usar los datos de la Aplicación para fines no relacionados con la venta de seguros e inversiones.</li>
+                    <li>Proporcionar información falsa o engañosa a clientes a través de la Aplicación.</li>
+                </ul>
+            </div>
+
+            <h2>6. Datos de Clientes</h2>
+            <ul>
+                <li>Los datos de clientes ingresados en la Aplicación son responsabilidad compartida entre usted y Edinfull S.A.</li>
+                <li>Usted debe obtener el consentimiento necesario de sus clientes antes de ingresar sus datos.</li>
+                <li>Debe cumplir con todas las regulaciones de protección de datos aplicables.</li>
+                <li>No puede exportar, copiar o usar datos de clientes fuera de la Aplicación sin autorización.</li>
+            </ul>
+
+            <h2>7. Propiedad Intelectual</h2>
+            <ul>
+                <li>La Aplicación, su diseño, código y contenido son propiedad de Edinfull S.A.</li>
+                <li>Se le otorga una licencia limitada, no exclusiva y revocable para usar la Aplicación.</li>
+                <li>Esta licencia termina inmediatamente si viola estos Términos.</li>
+                <li>Las ilustraciones y materiales generados son propiedad de Edinfull S.A. y solo pueden usarse para los fines previstos.</li>
+            </ul>
+
+            <h2>8. Privacidad</h2>
+            <p>Su privacidad es importante para nosotros. Consulte nuestra <a href="privacy-policy.html">Política de Privacidad</a> para entender cómo recopilamos y usamos su información.</p>
+
+            <h2>9. Limitación de Responsabilidad</h2>
+            <p>En la medida máxima permitida por la ley:</p>
+            <ul>
+                <li>La Aplicación se proporciona "tal como está" sin garantías de ningún tipo.</li>
+                <li>No garantizamos disponibilidad ininterrumpida del servicio.</li>
+                <li>No seremos responsables por daños indirectos, incidentales o consecuenciales.</li>
+                <li>No somos responsables por decisiones de inversión o seguros tomadas basándose en información de la Aplicación.</li>
+                <li>Las ilustraciones son estimaciones y no constituyen garantías de rendimiento.</li>
+            </ul>
+
+            <h2>10. Indemnización</h2>
+            <p>Usted acepta indemnizar y mantener indemne a Edinfull S.A. de cualquier reclamo, daño o gasto derivado de su uso de la Aplicación, violación de estos Términos, o infracción de derechos de terceros.</p>
+
+            <h2>11. Terminación</h2>
+
+            <h3>11.1 Por Su Parte</h3>
+            <ul>
+                <li>Puede dejar de usar la Aplicación en cualquier momento.</li>
+                <li>La terminación no le exime de obligaciones previamente adquiridas.</li>
+            </ul>
+
+            <h3>11.2 Por Nuestra Parte</h3>
+            <ul>
+                <li>Podemos suspender o terminar su acceso por violación de estos Términos.</li>
+                <li>Podemos suspender acceso por incumplimiento regulatorio o pérdida de licencia.</li>
+                <li>Podemos discontinuar el servicio con previo aviso razonable.</li>
+            </ul>
+
+            <h2>12. Modificaciones</h2>
+            <p>Nos reservamos el derecho de modificar estos Términos. Para cambios materiales, le notificaremos con al menos 30 días de anticipación. El uso continuado de la Aplicación después de los cambios constituye su aceptación.</p>
+
+            <h2>13. Ley Aplicable</h2>
+            <p>Estos Términos se rigen por las leyes de la República Oriental del Uruguay. Cualquier disputa se resolverá en los tribunales competentes de Montevideo, Uruguay.</p>
+
+            <h2>14. Contacto</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> itplatform@access-one.us</p>
+                <p><strong>Dirección:</strong> Edinfull S.A. — Zonamerica, Montevideo, Uruguay</p>
+                <p><strong>Teléfono:</strong> +598 93 413 969</p>
+            </div>
+
+            <div class="highlight">
+                <p><em>Al continuar usando MediFi, confirma que ha leído, entendido y acepta estos Términos de Servicio.</em></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 MediFi — Edinfull S.A. Todos los derechos reservados.</p>
+            <p>
+                <a href="privacy-policy.html">Privacidad</a>
+                <a href="terms-of-service.html">Términos</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
