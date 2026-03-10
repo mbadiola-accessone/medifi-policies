@@ -1,0 +1,22 @@
+{
+  "android_test": {
+    "version": "1.0.5",
+    "buildNumber": 5,
+    "forceUpdate": false
+  },
+  "android_prod": {
+    "version": "1.0.5",
+    "buildNumber": 5,
+    "forceUpdate": false
+  },
+  "ios_test": {
+    "version": "1.0.5",
+    "buildNumber": 5,
+    "forceUpdate": false
+  },
+  "ios_prod": {
+    "version": "1.0.5",
+    "buildNumber": 5,
+    "forceUpdate": false
+  }
+}
